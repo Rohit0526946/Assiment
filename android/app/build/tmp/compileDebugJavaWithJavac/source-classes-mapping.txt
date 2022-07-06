@@ -1,0 +1,14 @@
+com/daikicoin/MainApplication.java
+ com.daikifintech.MainApplication
+ com.daikifintech.MainApplication$1
+com/daikifintech/BuildConfig.java
+ com.daikifintech.BuildConfig
+com/daikicoin/MainActivity.java
+ com.daikifintech.MainActivity
+com/daikicoin/ReactNativeFlipper.java
+ com.daikifintech.ReactNativeFlipper
+ com.daikifintech.ReactNativeFlipper$1
+ com.daikifintech.ReactNativeFlipper$2
+ com.daikifintech.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pnd50/Desktop/rohit/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+es+419/values-b+es+419.xml",
+            "map": [
+                {
+                    "source": "/home/pnd50/.gradle/caches/transforms-2/files-2.1/ed3d5a6e1e1ec379e84da0b8bbe4cafb/jetified-play-services-wallet-18.1.3/res/values-b+es+419/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "208",
+                        "endColumns": "73",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        }
+    ]
+}

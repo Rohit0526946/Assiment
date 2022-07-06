@@ -1,0 +1,9 @@
+com/daikicoin/MainApplication.java
+ com.daikifintech.MainApplication
+ com.daikifintech.MainApplication$1
+com/daikifintech/BuildConfig.java
+ com.daikifintech.BuildConfig
+com/daikicoin/MainActivity.java
+ com.daikifintech.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

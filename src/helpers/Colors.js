@@ -1,0 +1,14 @@
+export const darkBlue = 'rgba(48,28,143,1)';
+export const dotsColor = 'rgba(209,196,232,1)';
+export const blue = 'rgba(34,150,240,1)';
+export const lineColor = 'rgba(13,188,211,1)';
+export const otp = 'rgba(117,117,117,1)';
+export const lightGrey = 'rgba(241,241,241,1)';
+export const light_black_500 = 'rgba(100,100,100,1)';
+export const lightRed = 'rgba(238,109,99,1)';
+export const placeholder = 'rgba(124,136,140,1)';
+export const bubleColor = 'rgba(70,167,242,1)';
+export const bengani = 'rgba(155,40,173,1)';
+export const lightBlue = 'rgba(63,81,177,1)';
+export const yellow = 'rgba(250,140,27,1)';
+export const greyTextColor = 'rgba(128,128,128,1)';

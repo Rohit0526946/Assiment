@@ -1,0 +1,260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.daikifintech"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/pnd50/Desktop/rohit/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/pnd50/Desktop/rohit/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /home/pnd50/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /home/pnd50/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[:react-native-camera] /home/pnd50/Desktop/rohit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:5-65
+14-->[:react-native-camera] /home/pnd50/Desktop/rohit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:22-62
+15
+16    <uses-feature
+16-->[:react-native-camera] /home/pnd50/Desktop/rohit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.camera"
+17-->[:react-native-camera] /home/pnd50/Desktop/rohit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+18        android:required="false" />
+18-->[:react-native-camera] /home/pnd50/Desktop/rohit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->[:react-native-camera] /home/pnd50/Desktop/rohit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[:react-native-camera] /home/pnd50/Desktop/rohit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+21        android:required="false" />
+21-->[:react-native-camera] /home/pnd50/Desktop/rohit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+22
+23    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+23-->[:react-native-keychain] /home/pnd50/Desktop/rohit/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-72
+23-->[:react-native-keychain] /home/pnd50/Desktop/rohit/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-69
+24    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+24-->[:react-native-keychain] /home/pnd50/Desktop/rohit/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-74
+24-->[:react-native-keychain] /home/pnd50/Desktop/rohit/node_modules/react-native-keychain/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-71
+25
+26    <queries>
+26-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:11:5-37:15
+27        <intent>
+27-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:12:9-18:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:13:13-65
+28-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:13:21-62
+29
+30            <data
+30-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:15:13-17:38
+31                android:mimeType="*/*"
+31-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:16:17-39
+32                android:scheme="*" />
+32-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:17:17-35
+33        </intent>
+34        <intent>
+34-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:19:9-28:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:13:13-65
+35-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:13:21-62
+36
+37            <category android:name="android.intent.category.BROWSABLE" />
+37-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:22:13-74
+37-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:22:23-71
+38
+39            <data
+39-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:15:13-17:38
+40                android:host="pay"
+41                android:mimeType="*/*"
+41-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:16:17-39
+42                android:scheme="upi" />
+42-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:17:17-35
+43        </intent>
+44        <intent>
+44-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:29:9-31:18
+45            <action android:name="android.intent.action.MAIN" />
+45-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:21:13-65
+45-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:21:21-62
+46        </intent>
+47        <intent>
+47-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:32:9-36:18
+48            <action android:name="android.intent.action.SEND" />
+48-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:33:13-65
+48-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:33:21-62
+49
+50            <data android:mimeType="*/*" />
+50-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:15:13-17:38
+50-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:16:17-39
+51        </intent>
+52    </queries> <!-- Include required permissions for Google Maps API to run. -->
+53    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+53-->[com.google.android.gms:play-services-maps:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+53-->[com.google.android.gms:play-services-maps:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+54
+55    <uses-feature
+55-->[com.google.android.gms:play-services-maps:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+56        android:glEsVersion="0x00020000"
+56-->[com.google.android.gms:play-services-maps:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+57        android:required="true" />
+57-->[com.google.android.gms:play-services-maps:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+58
+59    <application
+59-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:6:5-25:19
+60        android:name="com.daikifintech.MainApplication"
+60-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:7:7-38
+61        android:allowBackup="false"
+61-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:11:7-34
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.2.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/1a3234669c33f9f4072a7bfc84af0390/core-1.2.0/AndroidManifest.xml:24:18-86
+63        android:debuggable="true"
+64        android:icon="@mipmap/ic_launcher"
+64-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:9:7-41
+65        android:label="@string/app_name"
+65-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:8:7-39
+66        android:roundIcon="@mipmap/ic_launcher_round"
+66-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:10:7-52
+67        android:testOnly="true"
+68        android:theme="@style/AppTheme"
+68-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:13:7-38
+69        android:usesCleartextTraffic="true" >
+69-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:12:7-42
+70        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+70-->/home/pnd50/Desktop/rohit/android/app/src/debug/AndroidManifest.xml:11:9-86
+70-->/home/pnd50/Desktop/rohit/android/app/src/debug/AndroidManifest.xml:11:19-83
+71        <activity
+71-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:14:7-24:18
+72            android:name="com.daikifintech.MainActivity"
+72-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:15:9-37
+73            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+73-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:17:9-86
+74            android:label="@string/app_name"
+74-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:16:9-41
+75            android:launchMode="singleTask"
+75-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:18:9-40
+76            android:windowSoftInputMode="adjustResize" >
+76-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:19:9-51
+77            <intent-filter>
+77-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:20:9-23:25
+78                <action android:name="android.intent.action.MAIN" />
+78-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:21:13-65
+78-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:21:21-62
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:22:13-73
+80-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:22:23-70
+81            </intent-filter>
+82        </activity>
+83        <activity
+83-->[:react-native-razorpay] /home/pnd50/Desktop/rohit/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:86
+84            android:name="com.razorpay.CheckoutActivity"
+84-->[:react-native-razorpay] /home/pnd50/Desktop/rohit/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-57
+85            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+85-->[:react-native-razorpay] /home/pnd50/Desktop/rohit/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-83
+86            android:exported="true"
+86-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:51:13-36
+87            android:theme="@style/CheckoutTheme" >
+87-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:52:13-49
+88            <intent-filter>
+88-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:53:13-59:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:21:13-65
+89-->/home/pnd50/Desktop/rohit/android/app/src/main/AndroidManifest.xml:21:21-62
+90
+91                <data
+91-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:15:13-17:38
+92                    android:host="rzp.io"
+93                    android:scheme="io.rzp" />
+93-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:17:17-35
+94            </intent-filter>
+95        </activity>
+96
+97        <provider
+97-->[:react-native-webview] /home/pnd50/Desktop/rohit/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+98            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+98-->[:react-native-webview] /home/pnd50/Desktop/rohit/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+99            android:authorities="com.daikifintech.fileprovider"
+99-->[:react-native-webview] /home/pnd50/Desktop/rohit/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+100            android:exported="false"
+100-->[:react-native-webview] /home/pnd50/Desktop/rohit/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+101            android:grantUriPermissions="true" >
+101-->[:react-native-webview] /home/pnd50/Desktop/rohit/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+102            <meta-data
+102-->[:react-native-webview] /home/pnd50/Desktop/rohit/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+103                android:name="android.support.FILE_PROVIDER_PATHS"
+103-->[:react-native-webview] /home/pnd50/Desktop/rohit/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+104                android:resource="@xml/file_provider_paths" />
+104-->[:react-native-webview] /home/pnd50/Desktop/rohit/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+105        </provider>
+106
+107        <receiver
+107-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:40:9-46:20
+108            android:name="com.razorpay.RzpTokenReceiver"
+108-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:41:13-57
+109            android:exported="false" >
+109-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:42:13-37
+110            <intent-filter>
+110-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:43:13-45:29
+111                <action android:name="rzp.device_token.share" />
+111-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:44:17-65
+111-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:44:25-62
+112            </intent-filter>
+113        </receiver>
+114
+115        <meta-data
+115-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:62:9-64:58
+116            android:name="com.razorpay.plugin.googlepay_all"
+116-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:63:13-61
+117            android:value="com.razorpay.RzpGpayMerged" />
+117-->[com.razorpay:checkout:1.6.22] /home/pnd50/.gradle/caches/transforms-2/files-2.1/ccd5f7ac5d6416c593db009829ce0ac9/jetified-checkout-1.6.22/AndroidManifest.xml:64:13-55
+118
+119        <activity
+119-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+120            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+120-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+121            android:excludeFromRecents="true"
+121-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+124        <!--
+125            Service handling Google Sign-In user revocation. For apps that do not integrate with
+126            Google Sign-In, this service will never be started.
+127        -->
+128        <service
+128-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+129            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+129-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+130            android:exported="true"
+130-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+131            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+131-->[com.google.android.gms:play-services-auth:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/78c38c7d4c39204d65cf196b885d8bdc/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+132        <uses-library
+132-->[com.google.android.gms:play-services-maps:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+133            android:name="org.apache.http.legacy"
+133-->[com.google.android.gms:play-services-maps:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+134            android:required="false" />
+134-->[com.google.android.gms:play-services-maps:17.0.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+135
+136        <activity
+136-->[com.google.android.gms:play-services-base:17.5.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/222f43782eebddff360724998c4eb188/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+137            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+137-->[com.google.android.gms:play-services-base:17.5.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/222f43782eebddff360724998c4eb188/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-base:17.5.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/222f43782eebddff360724998c4eb188/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-base:17.5.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/222f43782eebddff360724998c4eb188/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+140
+141        <meta-data
+141-->[com.google.android.gms:play-services-basement:17.6.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+142            android:name="com.google.android.gms.version"
+142-->[com.google.android.gms:play-services-basement:17.6.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+143            android:value="@integer/google_play_services_version" />
+143-->[com.google.android.gms:play-services-basement:17.6.0] /home/pnd50/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+144    </application>
+145
+146</manifest>
